@@ -1,14 +1,57 @@
 <!DOCTYPE html>
 <html>
 <head>
-<link rel="stylesheet" type="text/css" href="style.css">
 <META charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="2560.css">
+<link rel="stylesheet" type="text/css" href="more1024.css">
+<link rel="stylesheet" type="text/css" href="less1024.css">
 <link rel="stylesheet" href="fonts/th_niramit_as.css" />
+<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
 </head>
 <body>
+	<div class="header">
+		<div class="headerLeft">
+			<img src="Image/tm-logo.png" style="width:150px; height:50px; vertical-align: text-top; margin-right:5px;">
+		</div>
+    	<div class="headerRight">
+    		<div class="headerTab" id="headerHome">HOME</div>
+    		<div class="headerTab" id="headerEQUOT">E_QUOTATION</div>
+    		<div class="headerTab" id="headerEAPP">E_APPLICATION</div>
+    		<div class="headerTab" id="headerLAN">| TH</div>
+    	</div>
+    <div class="EQ">
+    	<div style="text-align:center; margin-top:5px;">
+    		<img src="Image/tm-logo.png" style="width:170px; height:50px; vertical-align: text-top; margin-right:5px;">
+    		<hr style="border-bottom: 2.5px solid black; width:60%; margin-top:10px"></hr>
+    	</div>
+    	<div style="text-align:center;">
+    		<button class="EQbtn1">สร้างใบเสนอขาย</button>
+    		<div class="EQSearch">
+				<i class="fa fa-search" style="font-size:22px;" class="iconsearch"></i>
+    			<input class="input" type="text" placeholder="ค้นหาใบคำขอฯ,ชื่อผู้ขอเอาประกัน,สถานะ,เลขที่ใบคำขอเอาประกันภัย"></input>
+				
+				<i class="fa fa-calendar" style="font-size:22px; margin-left:15px;"></i>
+    			<input class="input2" type="text" placeholder="ค้นหาจากเวลา"></input>
+    		</div>
+    		<button class="EQbtn2">
+				<i class="fa fa-sort-amount-desc" style="font-size:24px;"></i>
+				จัดเรียง
+			</button>
+    	</div>
+  	</div>
+  	</div>
+
+
+
+  	
+
 
 		<!-- Trigger/Open The Modal -->
-		<button id="myBtn">Open Modal</button>
+		<div class="divshowbtn">
+			<button id="myBtn" class="showbtn">Open Modal</button>
+		</div>
+		<div class="testscroll"></div>
 
 		<!-- The Modal -->
 		<div id="myModal" class="modal">
@@ -18,8 +61,7 @@
 		    <span class="close"></span>
 		    <div class ="parent">
 		    	<div class="tab" id="a">
-		    		<a> 
-
+		    		<a>
 		    		<img id="imgA2" src="Image/user2.png" style="width:35px; height:35px; vertical-align: text-top; margin-right:5px;">
 		    		<img id="imgA1" src="Image/user1.png" style="width:35px; height:35px; vertical-align: text-top; margin-right:5px;">
 		    		<b>ข้อมูลผู้เอาประกันภัย</b>
@@ -41,9 +83,8 @@
 				 		<div class="select" id="page2"><a>สถานที่สะดวกในการติดต่อ</a></div>
 				 	</div>
 
-  					<div style="clear:both"></div>
 				 	<div id = "showpage1" class="information">
-				 		<table style="width:100%"  >
+				 		<table style="width:100%">
 							  <tr class="border_bottom">
 							    <td class="page1M"><b>คำนำหน้า</b></td>
 							    <td class="page1">นาย</td>
@@ -184,6 +225,21 @@
 		  	</div>
 				
 		</div>
+		</div>
+
+	<div class="footer">
+    	<div class="footerLeft">2016 Tokiomarine Insurance Group. All rigths reserved.</div>
+    	<div class="footerCenter">
+    		<img src="Image/Tokio_Marine_logo.png" style="width:50px; height:35px; vertical-align: text-top; margin-right:5px;">
+    	</div>
+    	<div class="footerRight">
+    		<i class="fa fa-facebook-square" style="font-size:30px; color:#778b96; margin-right:30px;"></i>
+			<i class="fa fa-twitter" style="font-size:30px; color:#778b96; margin-right:30px;"></i>
+			<i class="fa fa-google-plus" style="font-size:28px; color:#778b96; margin-right:30px;"></i>
+    	</div>
+  	</div>
+
+
 
 </body>
 			<script>
@@ -202,6 +258,32 @@
 			var imgA2 = document.getElementById('imgA2');
 			var imgB1 = document.getElementById('imgB1');
 			var imgB2 = document.getElementById('imgB2');
+			var headerHome = document.getElementById('headerHome');
+			var headerEQUOT = document.getElementById('headerEQUOT');
+			var headerEAPP = document.getElementById('headerEAPP');
+			var headerLAN = document.getElementById('headerLAN');
+
+			headerHome.classList.add("headerActive");
+
+
+			headerLAN.onclick= function(){
+				headerLAN.value="| EN";
+			}
+			headerHome.onclick = function(){
+				headerHome.classList.add("headerActive");
+				headerEQUOT.classList.remove("headerActive");
+				headerEAPP.classList.remove("headerActive");
+			}	
+			headerEQUOT.onclick = function(){
+				headerHome.classList.remove("headerActive");
+				headerEQUOT.classList.add("headerActive");
+				headerEAPP.classList.remove("headerActive");
+			}	
+			headerEAPP.onclick = function(){
+				headerHome.classList.remove("headerActive");
+				headerEQUOT.classList.remove("headerActive");
+				headerEAPP.classList.add("headerActive");
+			}
 
 			// Get the button that opens the modal
 			var btn = document.getElementById("myBtn");
@@ -243,6 +325,7 @@
 			    imgA2.style.display="inline-block";		
 				imgB1.style.display="inline-block";
 			}
+			
 			b.onclick = function() {
 				b.classList.remove("active");
 				a.classList.add("active");
@@ -253,6 +336,7 @@
 				imgB1.style.display="none";
 			    imgB2.style.display="inline-block";
 			}
+
 			page1.onclick = function() {
 				page1.classList.add("active2");
 				page2.classList.remove("active2");
@@ -260,6 +344,7 @@
 				showpage2.style.display="none";
 
 			}
+
 			page2.onclick = function() {
 				page2.classList.add("active2");
 				page1.classList.remove("active2");

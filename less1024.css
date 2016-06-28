@@ -1,0 +1,296 @@
+/* The Modal (background) */
+@media screen and (max-width: 1024px) {
+.EQ{
+    position: fixed;
+    margin-top:10px;
+    height: 160px;
+    width: 1024px;
+    background-color: #F7F7F7;
+}    
+.EQSearch{
+    display:inline-block; 
+    width:65%; 
+    border:1px solid #D5D5D5; 
+    background-color:white;
+    padding-top: 5px;
+    padding-bottom: 2px;
+ }
+.input{
+    display: inline-block;
+    width: 65%;
+    font-size: 14px;
+    height: 40px;
+    border: 0px;
+    border-right: 1px solid #ddd;
+ }
+ .iconsearch{
+    margin-left: 5px;
+ }
+  .input2
+  {
+    display: inline-block;
+    
+    font-size: 14px;
+    height: 40px;
+    border: 0px;
+    margin-left: 10px;
+ }
+.EQbtn1{
+    background-color: #0095a9;
+    color:white;
+    display: inline-block;
+    font-size: 12px;
+    padding: 13px 20px 8px 20px;
+ }
+ .EQbtn2{
+    
+    background-color: #d4d611;
+    color:white;
+    display: inline-block;
+    font-size: 12px;
+    padding: 8px 25px 8px 25px;
+ }
+
+
+
+
+
+
+
+
+
+
+.footerRight{
+    position: absolute;
+}
+.footerLeft{
+    position: absolute;
+}
+.footer{    
+    position:fixed;
+    left:0px;
+    bottom:0px;
+    height:74px;
+    width:1024px;
+    background:#032a39;
+}
+.header{
+    position:fixed;
+    left:0px;
+    top:0px;
+    height:74px;
+    width:1024px;
+    background:#032a39;
+}
+.headerRight{
+    position: absolute;
+}
+
+body { font-family: 'THNiramitAS', sans-serif; background-color: green;} 
+table{
+     border-collapse: collapse; 
+}
+tr.border_bottom td {
+  border-bottom:1pt solid #D7DADA;
+}
+tr.border_bottom2 td {
+
+  border-bottom:1pt solid #D7DADA;
+}
+td.page1{
+	width: 319px;
+	height: 30px;
+    font-size: 1em;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+td.page1M{
+	width: 213px;
+	height: 30px;
+    font-size: 1em;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+td.pageM{
+    width: 50%;
+    padding-left: 15px;
+    font-size: 15px;
+    padding-top: 0px;
+    padding-bottom: 5px;
+}
+td.page2{
+    width: 25%;
+    font-size: 15px;
+    padding-top: 15px;
+    padding-bottom: 5px;
+}
+.center{
+    padding-left: 15px;
+    font-size: 20px;
+    padding-top: 15px;
+    padding-bottom: 5px;
+}
+.wrapper {
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+
+.button {
+    position:relative;
+    bottom:0;
+}
+
+
+.head {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #FFFFFF;
+}
+.information{
+    width: 80%;
+    margin: auto;
+    margin-top: 15px;
+}
+.selecthead {
+
+    margin: auto;
+    margin-top: 20px;
+    padding: 0;
+    width: 522px;
+    height: 33px;
+    background-color: #FFFFFF;
+}
+
+.select{
+    border:1px solid #0096a9;
+    width: 49%;
+    text-align: center;
+    float: left;
+}
+.select a {
+    cursor: pointer;
+    display: block;
+    color: #0096a9;
+    font-size: 17px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.select a:hover:not(.active) {
+    color:#FFFFFF;
+    background-color: #0096a9;
+}
+
+.tab a {
+    display: block;
+    color: #000;
+    font-size: 20px;
+    text-align: center;
+    padding: 8px 10px;
+    text-decoration: none;
+}
+
+.tab a:hover:not(.active) {
+    background-color: #FFFFFF;
+}
+.tab{
+    cursor: pointer;
+    width: 351px;
+    height: 57px;
+    display: inline-block;
+}
+.active {
+    background-color: #EAEAEA;
+}
+.active2 a{
+    color:#FFFFFF!important;
+}
+.active2{
+    background-color: #0096a9;
+}
+.parent{
+  font-size: 0;
+    /* parent value */
+}
+
+.parent > div{
+  display: inline-block;
+  width: 50%;
+  font-size: 16px;
+   /* some value */
+}
+.city{
+  height: 583px;
+  width: 665px;
+    margin-bottom: -70px; 
+}
+.city2{
+  height: 583px;
+  width: 665px;
+  /* equal to footer height */
+  margin-bottom: -80px; 
+}
+
+#information2{display:none;}
+.modal {
+    margin: 0;
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 1024px; /* Full width */
+    height: 2024px; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+
+}
+
+/* Modal Content */
+.modal-content {
+    background-color: #FFFFFF;
+    margin-left: 150px;
+    margin-top: -40px;
+    border: 1px solid #888;
+    width: 665.6px;
+    height: 648px;
+    position: fixed;
+}
+
+/* The Close Button */
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+
+
+.btn {
+  background: #0096a9;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 45px 10px 45px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  text-decoration: none;
+}
+
+}
