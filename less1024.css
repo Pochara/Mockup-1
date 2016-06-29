@@ -1,90 +1,39 @@
 /* The Modal (background) */
 @media screen and (max-width: 1024px) {
+.header{
+    width: 1024px;
+}
+.footer{
+    width: 1024px;
+}
 .EQ{
-    position: fixed;
-    margin-top:10px;
-    height: 160px;
     width: 1024px;
     background-color: #F7F7F7;
-}    
-.EQSearch{
+}
+.EQbtn1{
+    width: 15%;
+    background-color: #0095a9;
+    color:white;
+    display: inline-block;
+    font-size: 14px;
+    padding: 10px 25px 9px 25px;
+ }
+ .EQbtn2{
+    width: 13%;
+    background-color: #d4d611;
+    color:white;
+    display: inline-block;
+    font-size: 14px;
+    padding: 10px 25px 9px 25px;
+ }
+ .EQSearch{
     display:inline-block; 
     width:65%; 
     border:1px solid #D5D5D5; 
     background-color:white;
-    padding-top: 5px;
-    padding-bottom: 2px;
- }
-.input{
-    display: inline-block;
-    width: 65%;
-    font-size: 14px;
-    height: 40px;
-    border: 0px;
-    border-right: 1px solid #ddd;
- }
- .iconsearch{
-    margin-left: 5px;
- }
-  .input2
-  {
-    display: inline-block;
-    
-    font-size: 14px;
-    height: 40px;
-    border: 0px;
-    margin-left: 10px;
- }
-.EQbtn1{
-    background-color: #0095a9;
-    color:white;
-    display: inline-block;
-    font-size: 12px;
-    padding: 13px 20px 8px 20px;
- }
- .EQbtn2{
-    
-    background-color: #d4d611;
-    color:white;
-    display: inline-block;
-    font-size: 12px;
-    padding: 8px 25px 8px 25px;
  }
 
 
-
-
-
-
-
-
-
-
-.footerRight{
-    position: absolute;
-}
-.footerLeft{
-    position: absolute;
-}
-.footer{    
-    position:fixed;
-    left:0px;
-    bottom:0px;
-    height:74px;
-    width:1024px;
-    background:#032a39;
-}
-.header{
-    position:fixed;
-    left:0px;
-    top:0px;
-    height:74px;
-    width:1024px;
-    background:#032a39;
-}
-.headerRight{
-    position: absolute;
-}
 
 body { font-family: 'THNiramitAS', sans-serif; background-color: green;} 
 table{
@@ -98,35 +47,33 @@ tr.border_bottom2 td {
   border-bottom:1pt solid #D7DADA;
 }
 td.page1{
-	width: 319px;
-	height: 30px;
-    font-size: 1em;
+    width:60%;
+    font-size: 13px;
     padding-top: 10px;
     padding-bottom: 5px;
 }
 td.page1M{
-	width: 213px;
-	height: 30px;
-    font-size: 1em;
+    width:40%;
+    font-size: 13px;
     padding-top: 10px;
     padding-bottom: 5px;
 }
 td.pageM{
     width: 50%;
-    padding-left: 15px;
-    font-size: 15px;
+    padding-left: 13px;
+    font-size: 13px;
     padding-top: 0px;
     padding-bottom: 5px;
 }
 td.page2{
     width: 25%;
-    font-size: 15px;
+    font-size: 13px;
     padding-top: 15px;
     padding-bottom: 5px;
 }
 .center{
     padding-left: 15px;
-    font-size: 20px;
+    font-size: 13px;
     padding-top: 15px;
     padding-bottom: 5px;
 }
@@ -154,15 +101,7 @@ td.page2{
     margin: auto;
     margin-top: 15px;
 }
-.selecthead {
 
-    margin: auto;
-    margin-top: 20px;
-    padding: 0;
-    width: 522px;
-    height: 33px;
-    background-color: #FFFFFF;
-}
 
 .select{
     border:1px solid #0096a9;
@@ -174,7 +113,7 @@ td.page2{
     cursor: pointer;
     display: block;
     color: #0096a9;
-    font-size: 17px;
+    font-size: 14px;
     text-align: center;
     text-decoration: none;
 }
@@ -187,7 +126,7 @@ td.page2{
 .tab a {
     display: block;
     color: #000;
-    font-size: 20px;
+    font-size: 16px;
     text-align: center;
     padding: 8px 10px;
     text-decoration: none;
@@ -199,7 +138,7 @@ td.page2{
 .tab{
     cursor: pointer;
     width: 351px;
-    height: 57px;
+    height: 40px;
     display: inline-block;
 }
 .active {
@@ -223,15 +162,15 @@ td.page2{
    /* some value */
 }
 .city{
-  height: 583px;
+  height: 530px;
   width: 665px;
-    margin-bottom: -70px; 
+    margin-bottom: -120px; 
 }
 .city2{
-  height: 583px;
+  height: 530px;
   width: 665px;
   /* equal to footer height */
-  margin-bottom: -80px; 
+  margin-bottom: -110px; 
 }
 
 #information2{display:none;}
@@ -258,7 +197,7 @@ td.page2{
     margin-top: -40px;
     border: 1px solid #888;
     width: 665.6px;
-    height: 648px;
+    height: 85%;
     position: fixed;
 }
 
@@ -283,13 +222,13 @@ td.page2{
 .btn {
   background: #0096a9;
   color: #ffffff;
-  font-size: 20px;
-  padding: 10px 45px 10px 45px;
+  font-size: 15px;
+  padding: 8px 35px 8px 35px;
   text-decoration: none;
 }
 
 .btn:hover {
-  background: #3cb0fd;
+  background: #0096a9;
   text-decoration: none;
 }
 

@@ -1,22 +1,23 @@
 /* The Modal (background) */
+body { font-family: 'THNiramitAS', sans-serif; background-color: blue; margin:0px;} 
 .divshowbtn{
 	margin-top: 500px;
 	text-align: center;
 }
 .header{
-    position:fixed;
+    position:relative;
    	left:0px;
    	top:0px;
-   	height:74px;
+   	height:55px;
    	width:100%;
    	background:#032a39;
 }
 .iconsearch{
-	font-size: 30px;
+	font-size: 20px;
 }
 .headerTab{
 	cursor: pointer;
-	margin-top: 20px;
+	margin-top: 15px;
 	height: 68%;
 	margin-right: 15px;
 	display: inline-block;
@@ -36,39 +37,39 @@
 	height: 100%;
 	position: absolute;
 	color:white;
-	font-size: 20px;
+	font-size: 15px;
 	right: 40px;
 }
 .EQ{
-	position: fixed;
-	margin-top:10px;
-	height: 160px;
+	position: relative;
+	margin-top:11px;
+	height: 130px;
 	width: 100%;
 	background-color: #F7F7F7;
 }
 .EQbtn1{
+	border:0px;
 	width: 13%;
 	background-color: #0095a9;
 	color:white;
 	display: inline-block;
-  	font-size: 16px;
-  	padding: 13px 25px 8px 25px;
+  	font-size: 15px;
+  	padding: 10px 25px 9px 25px;
  }
  .EQbtn2{
+	border:0px;
  	width: 13%;
 	background-color: #d4d611;
 	color:white;
 	display: inline-block;
-  	font-size: 16px;
-  	padding: 8px 25px 8px 25px;
+  	font-size: 15px;
+  	padding: 10px 25px 9px 25px;
  }
  .EQSearch{
  	display:inline-block; 
  	width:60%; 
  	border:1px solid #D5D5D5; 
  	background-color:white;
- 	padding-top: 5px;
- 	padding-bottom: 2px;
  }
 textarea:focus, input:focus{
     outline: none;
@@ -76,7 +77,7 @@ textarea:focus, input:focus{
  .input{
  	display: inline-block;
  	width: 67%;
- 	font-size: 20px;
+ 	font-size: 15px;
  	height: 40px;
  	border: 0px;
  	margin-left: 5px;
@@ -85,7 +86,7 @@ textarea:focus, input:focus{
   .input2{
  	display: inline-block;
  	width: 18%;
- 	font-size: 20px;
+ 	font-size: 15px;
  	height: 40px;
  	border: 0px;
  	margin-left: 10px;
@@ -99,28 +100,31 @@ textarea:focus, input:focus{
 	margin-top: 1000px;
 }
 .footer{	
-    position:fixed;
+    position: relative;
+    display: inline-block;
    	left:0px;
    	bottom:0px;
-   	height:74px;
+   	height:50px;
    	width:100%;
    	background:#032a39;
 }
 .footerLeft{
-	position: fixed;
-	margin-top:25px;
+	display: inline-block;
+	position: absolute;
+	margin-top:15px;
 	margin-left: 30px;
 	color:white;
 	font-size: 14px;
 }
 .footerRight{
-	position: fixed;
+	position: absolute;
 	right:25px;
-	margin-top:-32px;
+	top:15px;
 }
 .footerCenter{
-	margin-top: 23px;
+	position: relative;
 	text-align: center;
+	margin-top: 10px;
 }
 
 
@@ -128,7 +132,7 @@ textarea:focus, input:focus{
 
 
 @media screen and (max-width: 2560px) {
-body { font-family: 'THNiramitAS', sans-serif; background-color: blue; overflow: auto;} 
+
 table{
      border-collapse: collapse; 
 }
@@ -141,33 +145,33 @@ tr.border_bottom2 td {
 }
 td.page1{
     width:60%;
-    font-size: 20px;
+    font-size: 13px;
     padding-top: 10px;
     padding-bottom: 5px;
 }
 td.page1M{
     width:40%;
-    font-size: 20px;
+    font-size: 13px;
     padding-top: 10px;
     padding-bottom: 5px;
 }
 td.pageM{
     width: 50%;
-    padding-left: 15px;
-    font-size: 20px;
+    padding-left: 13px;
+    font-size: 13px;
     padding-top: 0px;
     padding-bottom: 5px;
 }
 td.page2{
     width: 25%;
-    font-size: 20px;
+    font-size: 13px;
     padding-top: 15px;
     padding-bottom: 5px;
 }
 .center{
     padding-left: 15px;
-    font-size: 20px;
-    padding-top: 15px;
+    font-size: 13px;
+    padding-top: 10px;
     padding-bottom: 5px;
 }
 .wrapper {
@@ -213,7 +217,7 @@ td.page2{
     cursor: pointer;
     display: block;
     color: #0096a9;
-    font-size: 22px;
+    font-size: 14px;
     text-align: center;
     text-decoration: none;
 }
@@ -226,7 +230,7 @@ td.page2{
 .tab a {
     display: block;
     color: #000;
-    font-size: 25px;
+    font-size: 16px;
     text-align: center;
     padding: 8px 10px;
     text-decoration: none;
@@ -257,7 +261,7 @@ td.page2{
 .parent > div{
   display: inline-block;
   width: 50%;
-  font-size: 21px;
+  font-size: 16px;
    /* some value */
 }
 .city{
@@ -319,13 +323,13 @@ td.page2{
 .btn {
   background: #0096a9;
   color: #ffffff;
-  font-size: 20px;
-  padding: 10px 45px 10px 45px;
+  font-size: 15px;
+  padding: 8px 35px 8px 35px;
   text-decoration: none;
 }
 
 .btn:hover {
-  background: #3cb0fd;
+  background: #0096a9;
   text-decoration: none;
 }
 

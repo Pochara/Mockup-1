@@ -1,51 +1,39 @@
 /* The Modal (background) */
 @media screen and (max-width: 1440px) {
 
+.EQ{
+    position: relative;
+    width: 100%;
+    background-color: #F7F7F7;
+}
+.EQbtn1{
+    width: 15%;
+    background-color: #0095a9;
+    color:white;
+    display: inline-block;
+    font-size: 14px;
+    padding: 10px 25px 9px 25px;
+ }
+ .EQbtn2{
+    width: 13%;
+    background-color: #d4d611;
+    color:white;
+    display: inline-block;
+    font-size: 14px;
+    padding: 10px 25px 9px 25px;
+ }
  .EQSearch{
     display:inline-block; 
     width:65%; 
     border:1px solid #D5D5D5; 
     background-color:white;
-    padding-top: 5px;
-    padding-bottom: 2px;
- }
-.input{
-    display: inline-block;
-    width: 65%;
-    font-size: 15.5px;
-    height: 40px;
-    border: 0px;
-    border-right: 1px solid #ddd;
- }
- .iconsearch{
-    margin-left: 5px;
- }
-  .input2
-  {
-    display: inline-block;
-    
-    font-size: 15.5px;
-    height: 40px;
-    border: 0px;
-    margin-left: 10px;
- }
-.EQbtn1{
-    background-color: #0095a9;
-    color:white;
-    display: inline-block;
-    font-size: 12px;
-    padding: 13px 20px 8px 20px;
- }
- .EQbtn2{
-    
-    background-color: #d4d611;
-    color:white;
-    display: inline-block;
-    font-size: 12px;
-    padding: 8px 25px 8px 25px;
  }
 
-body { font-family: 'THNiramitAS', sans-serif; background-color: red;} 
+
+
+
+
+
 table{
      border-collapse: collapse; 
 }
@@ -58,32 +46,32 @@ tr.border_bottom2 td {
 }
 td.page1{
     width:60%;
-    font-size: 16px;
+    font-size: 13px;
     padding-top: 10px;
     padding-bottom: 5px;
 }
 td.page1M{
     width:40%;
-    font-size: 16px;
+    font-size: 13px;
     padding-top: 10px;
     padding-bottom: 5px;
 }
 td.pageM{
     width: 50%;
-    padding-left: 16px;
-    font-size: 15px;
+    padding-left: 13px;
+    font-size: 13px;
     padding-top: 0px;
     padding-bottom: 5px;
 }
 td.page2{
     width: 25%;
-    font-size: 16px;
+    font-size: 13px;
     padding-top: 15px;
     padding-bottom: 5px;
 }
 .center{
     padding-left: 15px;
-    font-size: 21px;
+    font-size: 13px;
     padding-top: 15px;
     padding-bottom: 5px;
 }
@@ -107,8 +95,8 @@ td.page2{
     background-color: #FFFFFF;
 }
 .information{
+
     width: 80%;
-    height: 70%;
     margin: auto;
     margin-top: 15px;
 }
@@ -131,7 +119,7 @@ td.page2{
     cursor: pointer;
     display: block;
     color: #0096a9;
-    font-size: 21px;
+    font-size: 14px;
     text-align: center;
     text-decoration: none;
 }
@@ -144,7 +132,7 @@ td.page2{
 .tab a {
     display: block;
     color: #000;
-    font-size: 21px;
+    font-size: 16px;
     text-align: center;
     padding: 8px 10px;
     text-decoration: none;
@@ -175,18 +163,18 @@ td.page2{
 .parent > div{
   display: inline-block;
   width: 50%;
-  font-size: 19px;
+  font-size: 16px;
    /* some value */
 }
 .city{
   min-height: 90%;
   /* equal to footer height */
-  margin-bottom: -70px; 
+  margin-bottom: -80px; 
 }
 .city2{
   min-height: 90%;
   /* equal to footer height */
-  margin-bottom: -80px; 
+  margin-bottom: -70px; 
 }
 
 #information2{display:none;}
@@ -220,7 +208,7 @@ td.page2{
 .close {
     color: #aaaaaa;
     float: right;
-    font-size: 31px;
+    font-size: 28px;
     font-weight: bold;
 }
 
@@ -237,8 +225,8 @@ td.page2{
 .btn {
   background: #0096a9;
   color: #ffffff;
-  font-size: 20px;
-  padding: 10px 45px 10px 45px;
+  font-size: 15px;
+  padding: 8px 35px 8px 35px;
   text-decoration: none;
 }
 
