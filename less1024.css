@@ -1,13 +1,15 @@
 /* The Modal (background) */
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 800px) {
 .header{
-    width: 1024px;
+    width:800px;
 }
 .footer{
-    width: 1024px;
+    width: 800px;
 }
 .EQ{
-    width: 1024px;
+    width: 800px;
+    position: relative;
+    width: 100%;
     background-color: #F7F7F7;
 }
 .EQbtn1{
@@ -15,27 +17,46 @@
     background-color: #0095a9;
     color:white;
     display: inline-block;
-    font-size: 14px;
-    padding: 10px 25px 9px 25px;
+    font-size: 11px;
+    padding: 10px 5px 9px 5px;
  }
  .EQbtn2{
-    width: 13%;
+    width: 15%;
     background-color: #d4d611;
     color:white;
     display: inline-block;
-    font-size: 14px;
-    padding: 10px 25px 9px 25px;
+    font-size: 11px;
+    padding: 5px 5px 9px 5px;
  }
  .EQSearch{
     display:inline-block; 
-    width:65%; 
+    width:60%; 
     border:1px solid #D5D5D5; 
     background-color:white;
  }
 
+.input{
+    width:65%;
+    font-size: 11px;
+}
+.input2{
+    width:18%;
+    font-size: 11px;
+}
+
+.headerRight{
+    font-size: 11px;
+}
+.footerLeft{
+    font-size: 11px;
+}
 
 
-body { font-family: 'THNiramitAS', sans-serif; background-color: green;} 
+body{background-color: pink;}
+
+
+
+
 table{
      border-collapse: collapse; 
 }
@@ -48,32 +69,32 @@ tr.border_bottom2 td {
 }
 td.page1{
     width:60%;
-    font-size: 13px;
+    font-size: 10px;
     padding-top: 10px;
     padding-bottom: 5px;
 }
 td.page1M{
     width:40%;
-    font-size: 13px;
+    font-size: 10px;
     padding-top: 10px;
     padding-bottom: 5px;
 }
 td.pageM{
     width: 50%;
-    padding-left: 13px;
-    font-size: 13px;
+    padding-left: 10px;
+    font-size: 10px;
     padding-top: 0px;
     padding-bottom: 5px;
 }
 td.page2{
     width: 25%;
-    font-size: 13px;
+    font-size: 10px;
     padding-top: 15px;
     padding-bottom: 5px;
 }
 .center{
     padding-left: 15px;
-    font-size: 13px;
+    font-size: 11px;
     padding-top: 15px;
     padding-bottom: 5px;
 }
@@ -97,11 +118,19 @@ td.page2{
     background-color: #FFFFFF;
 }
 .information{
+
     width: 80%;
     margin: auto;
     margin-top: 15px;
 }
+.selecthead {
 
+    margin: auto;
+    margin-top: 20px;
+    padding: 0;
+    width: 80%;
+    background-color: #FFFFFF;
+}
 
 .select{
     border:1px solid #0096a9;
@@ -113,7 +142,7 @@ td.page2{
     cursor: pointer;
     display: block;
     color: #0096a9;
-    font-size: 14px;
+    font-size: 12px;
     text-align: center;
     text-decoration: none;
 }
@@ -126,7 +155,7 @@ td.page2{
 .tab a {
     display: block;
     color: #000;
-    font-size: 16px;
+    font-size: 13px;
     text-align: center;
     padding: 8px 10px;
     text-decoration: none;
@@ -137,9 +166,15 @@ td.page2{
 }
 .tab{
     cursor: pointer;
-    width: 351px;
-    height: 40px;
+    width: 50%;
     display: inline-block;
+}
+.total{
+    background-color:#5c5a5d; 
+    color:white; 
+    font-size:11px; 
+    padding-top:5px; 
+    padding-left:15px;
 }
 .active {
     background-color: #EAEAEA;
@@ -162,15 +197,14 @@ td.page2{
    /* some value */
 }
 .city{
-  height: 530px;
-  width: 665px;
-    margin-bottom: -120px; 
+  min-height: 90%;
+  /* equal to footer height */
+  margin-bottom: -80px; 
 }
 .city2{
-  height: 530px;
-  width: 665px;
+  min-height: 90%;
   /* equal to footer height */
-  margin-bottom: -110px; 
+  margin-bottom: -70px; 
 }
 
 #information2{display:none;}
@@ -182,23 +216,22 @@ td.page2{
     padding-top: 100px; /* Location of the box */
     left: 0;
     top: 0;
-    width: 1024px; /* Full width */
-    height: 2024px; /* Full height */
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
     overflow: auto; /* Enable scroll if needed */
     background-color: rgb(0,0,0); /* Fallback color */
     background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
-
 }
 
 /* Modal Content */
 .modal-content {
     background-color: #FFFFFF;
-    margin-left: 150px;
+    margin: auto;
     margin-top: -40px;
     border: 1px solid #888;
-    width: 665.6px;
+    width: 520px;
     height: 85%;
-    position: fixed;
+
 }
 
 /* The Close Button */
@@ -222,13 +255,13 @@ td.page2{
 .btn {
   background: #0096a9;
   color: #ffffff;
-  font-size: 15px;
+  font-size: 12px;
   padding: 8px 35px 8px 35px;
   text-decoration: none;
 }
 
 .btn:hover {
-  background: #0096a9;
+  background: #3cb0fd;
   text-decoration: none;
 }
 

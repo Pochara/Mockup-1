@@ -1,5 +1,5 @@
 /* The Modal (background) */
-@media screen and (max-width: 1440px) {
+@media screen and (max-width: 1100px) {
 
 .EQ{
     position: relative;
@@ -11,26 +11,33 @@
     background-color: #0095a9;
     color:white;
     display: inline-block;
-    font-size: 14px;
-    padding: 10px 25px 9px 25px;
+    font-size: 12px;
+    padding: 10px 5px 9px 5px;
  }
  .EQbtn2{
     width: 13%;
     background-color: #d4d611;
     color:white;
     display: inline-block;
-    font-size: 14px;
-    padding: 10px 25px 9px 25px;
+    font-size: 12px;
+    padding: 5px 5px 9px 5px;
  }
  .EQSearch{
     display:inline-block; 
-    width:65%; 
+    width:60%; 
     border:1px solid #D5D5D5; 
     background-color:white;
  }
-
-
-
+.input{
+    font-size: 12px;
+    width: 65%;
+}
+.input2{
+    font-size: 12px;
+}
+.headerRight{
+    font-size: 13.5px;
+}
 
 
 
@@ -46,33 +53,33 @@ tr.border_bottom2 td {
 }
 td.page1{
     width:60%;
-    font-size: 13px;
+    font-size: 11px;
     padding-top: 10px;
     padding-bottom: 5px;
 }
 td.page1M{
     width:40%;
-    font-size: 13px;
+    font-size: 11px;
     padding-top: 10px;
     padding-bottom: 5px;
 }
 td.pageM{
     width: 50%;
     padding-left: 13px;
-    font-size: 13px;
+    font-size: 11px;
     padding-top: 0px;
-    padding-bottom: 5px;
+    padding-bottom: 2px;
 }
 td.page2{
     width: 25%;
-    font-size: 13px;
+    font-size: 11px;
     padding-top: 15px;
-    padding-bottom: 5px;
+    padding-bottom: 2px;
 }
 .center{
     padding-left: 15px;
-    font-size: 13px;
-    padding-top: 15px;
+    font-size: 11px;
+    padding-top: 5px;
     padding-bottom: 5px;
 }
 .wrapper {

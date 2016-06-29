@@ -1,5 +1,4 @@
 /* The Modal (background) */
-body { font-family: 'THNiramitAS', sans-serif; background-color: blue; margin:0px;} 
 .divshowbtn{
 	margin-top: 500px;
 	text-align: center;
@@ -49,12 +48,12 @@ body { font-family: 'THNiramitAS', sans-serif; background-color: blue; margin:0p
 }
 .EQbtn1{
 	border:0px;
-	width: 13%;
+	width: 15%;
 	background-color: #0095a9;
 	color:white;
 	display: inline-block;
   	font-size: 15px;
-  	padding: 10px 25px 9px 25px;
+    padding: 10px 5px 9px 5px;
  }
  .EQbtn2{
 	border:0px;
@@ -63,11 +62,11 @@ body { font-family: 'THNiramitAS', sans-serif; background-color: blue; margin:0p
 	color:white;
 	display: inline-block;
   	font-size: 15px;
-  	padding: 10px 25px 9px 25px;
+    padding: 5px 5px 9px 5px;
  }
  .EQSearch{
  	display:inline-block; 
- 	width:60%; 
+ 	width:65%; 
  	border:1px solid #D5D5D5; 
  	background-color:white;
  }
@@ -133,6 +132,8 @@ textarea:focus, input:focus{
 
 @media screen and (max-width: 2560px) {
 
+body { font-family: 'THNiramitAS', sans-serif; background-color: blue; margin:0px;} 
+
 table{
      border-collapse: collapse; 
 }
@@ -160,18 +161,19 @@ td.pageM{
     padding-left: 13px;
     font-size: 13px;
     padding-top: 0px;
-    padding-bottom: 5px;
+    padding-bottom: 2px;
 }
 td.page2{
     width: 25%;
     font-size: 13px;
     padding-top: 15px;
-    padding-bottom: 5px;
+    padding-bottom: 2px;
 }
 .center{
+	width: 100%;
     padding-left: 15px;
     font-size: 13px;
-    padding-top: 10px;
+    padding-top: 2px;
     padding-bottom: 5px;
 }
 .wrapper {
@@ -244,6 +246,14 @@ td.page2{
     width: 50%;
     display: inline-block;
 }
+.total{
+	background-color:#5c5a5d; 
+	color:white; 
+	font-size:15px; 
+	padding-top:5px; 
+	padding-left:15px;
+}
+
 .active {
     background-color: #EAEAEA;
 }
